@@ -2,7 +2,7 @@
 data/
 
 # Ignore environment files
-.env
+.venv
 
 # Ignore system files
 .DS_Store

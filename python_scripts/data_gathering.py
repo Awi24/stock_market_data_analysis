@@ -122,7 +122,7 @@ def main():
         logging.error("stock price data fetching failed.")
         
     logging.info("--- Data Fetching Process Completed Successfully ---")
-
+#main function
 if __name__ == "__main__":
     main()
         

@@ -30,5 +30,5 @@ CREATE TABLE IF NOT EXISTS companies (
 COPY stock_prices (trade_date,ticker, open_price, high_price, low_price, close_price, volume) 
 FROM 'D:\Coding_Projects\stock_market_data_analysis\data\stock_prices.csv' WITH (FORMAT csv, HEADER true);
 
--- Impporting company data from csv.
+-- Importing company data from csv.
 COPY companies (ticker, company_name, sector,industry) FROM 'D:\Coding_Projects\stock_market_data_analysis\data\company_info.csv' WITH (FORMAT csv, HEADER true);
